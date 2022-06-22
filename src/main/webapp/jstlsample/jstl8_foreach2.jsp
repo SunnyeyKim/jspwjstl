@@ -35,6 +35,11 @@ request.setAttribute("name4", nameList2);
 
 <hr />
 
+<c:forEach var="name" items="이름1,이름2,이름3">
+ ${name } <br />
+</c:forEach>
+
+<hr />
 
 <%-- <c:forEach var="name" items="${name3 }">
  ${name } <br />
